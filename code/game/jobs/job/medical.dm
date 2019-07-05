@@ -149,6 +149,18 @@
 	satchel = /obj/item/weapon/storage/backpack/satchel_vir
 	dufflebag = /obj/item/weapon/storage/backpack/duffel/vir
 	messengerbag = /obj/item/weapon/storage/backpack/messenger/viro
+	
+/datum/outfit/job/pharmacist/Pathologist
+	name = "Pathologist"
+	jobtype = /datum/job/pharmacist
+
+	uniform = /obj/item/clothing/under/rank/biochemist
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/biochemist
+
+	backpack = /obj/item/weapon/storage/backpack/virology
+	satchel = /obj/item/weapon/storage/backpack/satchel_vir
+	dufflebag = /obj/item/weapon/storage/backpack/duffel/vir
+	messengerbag = /obj/item/weapon/storage/backpack/messenger/viro
 
 /datum/job/psychiatrist
 	title = "Psychiatrist"
