@@ -117,7 +117,7 @@
 	economic_modifier = 5
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_pharmacy, access_virology, access_genetics)
 	minimal_access = list(access_medical, access_medical_equip, access_pharmacy, access_virology)
-	alt_titles = list("Biochemist")
+	alt_titles = list("Biochemist","Pathologist")
 	outfit = /datum/outfit/job/pharmacist
 	alt_outfits = list(
 		"Biochemist"=/datum/outfit/job/pharmacist/biochemist
@@ -150,7 +150,7 @@
 	dufflebag = /obj/item/weapon/storage/backpack/duffel/vir
 	messengerbag = /obj/item/weapon/storage/backpack/messenger/viro
 	
-/datum/outfit/job/pharmacist/Pathologist
+/datum/outfit/job/pharmacist/pathologist
 	name = "Pathologist"
 	jobtype = /datum/job/pharmacist
 
