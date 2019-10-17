@@ -707,6 +707,20 @@
 	for(var/a = 1 to 12)
 		new /obj/item/weapon/reagent_containers/extinguisher_refill(src)
 
+/obj/structure/closet/crate/saftey_conesE
+	name = "crate of orange saftey cones"
+	desc = "contains half a dozen cones, not for use as hats"
+	
+/obj/structure/closet/crate/saftey_conesE/fill()
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+	new /obj/item/weapon/caution/cone
+
+
 /obj/structure/closet/crate/autakh
 	name = "aut'akh crate"
 	desc = "Contains a number of limbs and augmentations created by the Aut'akh Commune."
